@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.0.0-0",
+    "@bitte-ai/chat": "^0.19.8",
     "@emotion/css": "^11.11.2",
     "@fastnear/utils": "^0.9.7",
     "@headlessui/react": "^1.7.17",
@@ -134,5 +135,6 @@
     "typescript": "^5.4.5",
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.0.5"
-  }
+  },
+  "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184"
 }
