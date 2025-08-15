@@ -41,7 +41,7 @@ export default function ProposalsHome() {
       <Hero page="proposals" />
       <Proposals />
       <BitteWidgetChat  
-        agentId="hos-agent.vercel.app"
+        agentId="hos-bitte-agent-testnet.vercel.app"
         apiUrl="https://hos-bitte-ui.vercel.app/api/chat"
         format="markdown"
         wallet={{ 
@@ -55,6 +55,11 @@ export default function ProposalsHome() {
           widgetWelcomePrompts: {
             questions: [
               'What is proposal 1?',
+              'show all proposal',
+              'Find proposal relate defi',
+              'Find proposal relate governance',
+              'Find proposal relate token',
+              'Find proposal relate token',
             ],
             actions: ['Vote propsoal', 'Create proposal'],
           },
